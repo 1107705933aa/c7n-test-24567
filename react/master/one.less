@@ -1,0 +1,120 @@
+@width:100%;
+@width2:18.75%;
+@width3:81.25%;
+@width4:115px;
+@height:50px;
+@bgcolor:#3f51b5;
+@bgcolor2:#303f9f;
+@bgcolor3:green;
+@bgcolor4:skyblue;
+@bgcolor5:rgb(100, 116, 196);
+@bgcolor6:#fafafa;
+
+
+// -----------头部菜单-----------
+.top {
+   width: @width;
+   height: @height;
+   background-color: @bgcolor;
+}
+
+.top_l {
+    width: @width2;
+    height: @height;
+    background-color: @bgcolor2;
+    float: left;
+}
+
+.top_r {
+    width: @width3;
+    height: @height;
+    // background-color: @bgcolor3;
+    float:right;
+}
+
+.menu1 {
+    width: @width4;
+    height: @height;
+    // background-color: @bgcolor4;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    line-height: @height;
+    display: inline-block;
+}
+
+.menu1:hover {
+    background-color: @bgcolor5;
+}
+
+.menu1:nth-child(2) {
+    width: 90px;
+}
+
+.menu1:nth-child(4) {
+    width: 90px;
+}
+
+.menu2 {
+    width: 200px;
+    height: @height;
+    // background-color: @bgcolor4;
+    font-size: 14px;
+    color: white !important;
+    line-height: @height;
+    display: inline-block;
+    margin-top: -20px;
+}
+
+.menu2:hover {
+    background-color: @bgcolor5;
+}
+
+.menu3 {
+    width: 30px;
+    height: 30px;
+    // background-color: @bgcolor4;
+    border-radius: 25px 25px ;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 45px;
+}
+
+.menu4 {
+    width: 40px;
+    height: 40px;
+    // background-color: @bgcolor4;
+    border-radius: 25px 25px ;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 80px;
+}
+
+.menu5 {
+    width: 40px;
+    height: 40px;
+    // background-color: @bgcolor4;
+    border-radius: 25px 25px ;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 135px;
+}
+
+.menu4:hover {
+    background-color: @bgcolor5;
+}
+
+.menu5:hover {
+    background-color: @bgcolor5;
+}
+
+
+// ---------左侧菜单和内容组件------------
+.content_l {
+    width: @width2;
+    height: 575px;
+    background-color:#fafafa;
+}
